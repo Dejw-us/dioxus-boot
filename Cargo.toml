@@ -4,5 +4,6 @@ version = "0.1.0"
 edition = "2024"
 description = "Dioxus tools to help you bootstrap your app"
 license = "MIT"
+repository = "https://github.com/Dejw-us/dioxus-boot"
 
 [dependencies]
