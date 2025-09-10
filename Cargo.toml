@@ -1,0 +1,8 @@
+[package]
+name = "dioxus-boot"
+version = "0.1.0"
+edition = "2024"
+description = "Dioxus tools to help you bootstrap your app"
+license = "MIT"
+
+[dependencies]
