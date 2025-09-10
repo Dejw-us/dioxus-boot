@@ -6,4 +6,15 @@ description = "Dioxus tools to help you bootstrap your app"
 license = "MIT"
 repository = "https://github.com/Dejw-us/dioxus-boot"
 
+[workspace]
+members = ["dioxus-boot-forms"]
+
+[workspace.dependencies]
+dioxus = "0.6.3"
+web-sys = "0.3.78"
+
 [dependencies]
+dioxus-boot-forms = { path = "dioxus-boot-forms" }
+
+[features]
+forms = []
